@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+  <title>First page layout</title>
+</head>
+
+<body>
+  <section class="about">
+    <div class="container">
+      <header class="header">
+        <div class="header__logo">
+          <img src="assets/about/icon/icon_logo.svg" alt="logo" />
+        </div>
+
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a href="#features" class="header__nav-link">features</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#works" class="header__nav-link">works</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#team" class="header__nav-link">our team</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#testimonials" class="header__nav-link">testimonials</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#download" class="header__nav-link">download</a>
+            </li>
+          </ul>
+        </nav>
+
+        <input type="checkbox" id="burger-checkbox" class="input-burger" name="burger-input">
+        <label for="burger-checkbox" class="burger__label">
+          <svg class="burger-icon">
+            <use href="assets/sprite.svg#menu">
+          </svg>
+        </label>
+
+        <div class="burger__menu">
+          <label for="burger-checkbox" class="burger__close">X</label>
+          <div class="header__logo">
+            <img src="assets/about/icon/icon_logo.svg" alt="logo" />
+
+            <nav>
+              <ul class="burger__menu-list">
+                <li class="burger__menu-item">
+                  <a href="#features" class="burger__menu-link">features</a>
+                </li>
+                <li class="burger__menu-item">
+                  <a href="#works" class="burger__menu-link">works</a>
+                </li>
+                <li class="burger__menu-item">
+                  <a href="#team" class="burger__menu-link">our team</a>
+                </li>
+                <li class="burger__menu-item">
+                  <a href="#testimonials" class="burger__menu-link">testimonials</a>
+                </li>
+                <li class="burger__menu-item">
+                  <a href="#download" class="burger__menu-link">download</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+    </div>
+    </header>
+    <div class="about__content">
+      <h1 class="about__title">Your Favorite One Page Multi Purpose Template</h1>
+      <h3 class="about__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus
+        magna vel scelerisque nisl consectetur et.</h3>
+      <button type="button" class="button">Find Out More</button>
+    </div>
+  </section>
+
+  <main>
+
+    <section class="features" id="features">
+
+      <div class="container-features">
+
+        <div class="card-features">
+          <svg class="icon-features">
+            <use href="assets/sprite.svg#icon-1"></use>
+          </svg>
+          <h4 class="card-features__title">Easily Customised</h4>
+          <h5 class="card-features__description">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam
+            quis risus
+            eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</h5>
+        </div>
+
+        <div class="card-features">
+          <svg class="icon-features">
+            <use href="assets/sprite.svg#icon-2"></use>
+          </svg>
+          <h4 class="card-features__title">Responsive REady</h4>
+          <h5 class="card-features__description">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam
+            quis risus
+            eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</h5>
+        </div>
+
+        <div class="card-features">
+          <svg class="icon-features">
+            <use href="assets/sprite.svg#icon-3"></use>
+          </svg>
+          <h4 class="card-features__title">Modern Design</h4>
+          <h5 class="card-features__description">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam
+            quis risus
+            eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</h5>
+        </div>
+
+        <div class="card-features">
+          <svg class="icon-features">
+            <use href="assets/sprite.svg#icon-4"></use>
+          </svg>
+          <h4 class="card-features__title">Clean Code</h4>
+          <h5 class="card-features__description">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam
+            quis risus
+            eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</h5>
+        </div>
+
+        <div class="card-features">
+          <svg class="icon-features">
+            <use href="assets/sprite.svg#icon-5"></use>
+          </svg>
+          <h4 class="card-features__title">Ready to Ship</h4>
+          <h5 class="card-features__description">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam
+            quis risus
+            eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</h5>
+        </div>
+
+        <div class="card-features">
+          <svg class="icon-features">
+            <use href="assets/sprite.svg#icon-6"></use>
+          </svg>
+          <h4 class="card-features__title">Download for Free</h4>
+          <h5 class="card-features__description">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam
+            quis risus
+            eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</h5>
+        </div>
+      </div>
+    </section>
+
+    <section class="works" id="works">
+      <div class="gallery__item">
+        <img src="assets/works/work_1.jpg" class="image" alt="work_1">
+
+        <div class="works__content">
+          <h5 class="gallery__item-title">Project Name</h5>
+          <p class="gallery__item-description">User Interface Design</p>
+        </div>
+      </div>
+
+      <div class="gallery__item">
+        <img src="assets/works/work_2.jpg" class="image" alt="work_2">
+
+        <div class="works__content">
+          <h5 class="gallery__item-title">Project Name</h5>
+          <p class="gallery__item-description">User Interface Design</p>
+        </div>
+      </div>
+
+      <div class="gallery__item">
+        <img src="assets/works/work_3.jpg" class="image" alt="work_3">
+
+        <div class="works__content">
+          <h5 class="gallery__item-title">Project Name</h5>
+          <p class="gallery__item-description">User Interface Design</p>
+        </div>
+      </div>
+
+      <div class="gallery__item">
+        <img src="assets/works/work_4.jpg" class="image" alt="work_4">
+
+        <div class="works__content">
+          <h5 class="gallery__item-title">Project Name</h5>
+          <p class="gallery__item-description">User Interface Design</p>
+        </div>
+      </div>
+
+      <div class="gallery__item">
+        <img src="assets/works/work_5.jpg" class="image" alt="work_5">
+
+        <div class="works__content">
+          <h5 class="gallery__item-title">Project Name</h5>
+          <p class="gallery__item-description">User Interface Design</p>
+        </div>
+      </div>
+
+      <div class="gallery__item">
+        <img src="assets/works/work_6.jpg" class="image" alt="work_6">
+
+        <div class="works__content">
+          <h5 class="gallery__item-title">Project Name</h5>
+          <p class="gallery__item-description">User Interface Design</p>
+        </div>
+      </div>
+
+      <div class="gallery__item">
+        <img src="assets/works/work_7.jpg" class="image" alt="work_7">
+
+        <div class="works__content">
+          <h5 class="gallery__item-title">Project Name</h5>
+          <p class="gallery__item-description">User Interface Design</p>
+        </div>
+      </div>
+
+      <div class="gallery__item">
+        <img src="assets/works/work_8.jpg" class="image" alt="work_8">
+
+        <div class="works__content">
+          <h5 class="gallery__item-title">Project Name</h5>
+          <p class="gallery__item-description">User Interface Design</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="team" id="team">
+
+      <figure class="card">
+        <img class="card-img" src="assets/team/person_card_1.jpg" alt="person_card_1">
+        <figcaption>
+          <p class="card__title">Ruth woods</p>
+        </figcaption>
+        <blockquote>
+          <p class="card__subtitle">founder, ceo</p>
+          <p class="card__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+            fermentum
+            massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis
+            risus
+            eget urna mollis ornare vel eu leo.</p>
+        </blockquote>
+        <div class="icons">
+          <svg class="icons-team">
+            <use href="assets/sprite.svg#facebook"></use>
+          </svg>
+          <svg class="icons-team">
+            <use href="assets/sprite.svg#linkedin"></use>
+          </svg>
+          <svg class="icons-team">
+            <use href="assets/sprite.svg#twitter"></use>
+          </svg>
+        </div>
+      </figure>
+
+      <figure class="card">
+        <img class="card-img" src="assets/team/person_card_2.jpg" alt="person_card_2">
+        <figcaption>
+          <p class="card__title">Timothy Reed</p>
+        </figcaption>
+        <blockquote>
+          <p class="card__subtitle">co-founder, developer</p>
+          <p class="card__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+            fermentum
+            massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis
+            risus
+            eget urna mollis ornare vel eu leo.</p>
+        </blockquote>
+        <div class="icons">
+          <svg class="icons-team">
+            <use href="assets/sprite.svg#facebook"></use>
+          </svg>
+          <svg class="icons-team">
+            <use href="assets/sprite.svg#linkedin"></use>
+          </svg>
+          <svg class="icons-team">
+            <use href="assets/sprite.svg#twitter"></use>
+          </svg>
+        </div>
+      </figure>
+
+      <figure class="card">
+        <img class="card-img" src="assets/team/person_card_3.jpg" alt="person_card_3">
+        <figcaption>
+          <p class="card__title">Victoria Vladez</p>
+        </figcaption>
+        <blockquote>
+          <p class="card__subtitle">ui designer</p>
+          <p class="card__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+            fermentum
+            massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis
+            risus
+            eget urna mollis ornare vel eu leo.</p>
+        </blockquote>
+        <div class="icons">
+          <svg class="icons-team">
+            <use href="assets/sprite.svg#facebook"></use>
+          </svg>
+          <svg class="icons-team">
+            <use href="assets/sprite.svg#linkedin"></use>
+          </svg>
+          <svg class="icons-team">
+            <use href="assets/sprite.svg#twitter"></use>
+          </svg>
+        </div>
+      </figure>
+
+      <figure class="card">
+        <img class="card-img" src="assets/team/person_card_4.jpg" alt="person_card_4">
+        <figcaption>
+          <p class="card__title">Beverly Little</p>
+        </figcaption>
+        <blockquote>
+          <p class="card__subtitle">data scientist</p>
+          <p class="card__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+            fermentum
+            massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis
+            risus
+            eget urna mollis ornare vel eu leo.</p>
+        </blockquote>
+        <div class="icons">
+          <svg class="icons-team">
+            <use href="assets/sprite.svg#facebook"></use>
+          </svg>
+          <svg class="icons-team">
+            <use href="assets/sprite.svg#linkedin"></use>
+          </svg>
+          <svg class="icons-team">
+            <use href="assets/sprite.svg#twitter"></use>
+          </svg>
+        </div>
+      </figure>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+
+      <img class="testimonials__img" src="assets/testimonials/photo.jpg" alt="">
+
+      <div class="testimonials__text">
+        <h2 class="testimonials__title">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec
+          sed
+          odio dui. Aenean eu leo quam...”</h2>
+        <p class="testimonials__description">Susan Sims, Interaction Designer at XYZ</p>
+      </div>
+    </section>
+
+    <section class="download" id="download">
+      <div class="download__block">
+        <h3 class="download__title">Are You Ready to Start? Download Now For Free!</h3>
+        <h5 class="download__description">Fusce dapibus, tellus ac cursus commodo</h5>
+        <button type="button" class="button">download here</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer">
+
+      <div class="aside">
+        <div class="aside__block">
+          <p class="aside__block__title">Location</p>
+          <p class="aside__block__text">3481 Melrose Place
+            Beverly Hills, CA 90210</p>
+        </div>
+
+        <div class="aside__block">
+          <p class="aside__block__title">Share with Love</p>
+          <div class="aside__block__icons">
+            <svg class="aside__icon">
+              <use href="assets/sprite.svg#facebook"></use>
+            </svg>
+            <svg class="aside__icon">
+              <use href="assets/sprite.svg#linkedin"></use>
+            </svg>
+            <svg class="aside__icon">
+              <use href="assets/sprite.svg#twitter"></use>
+            </svg>
+          </div>
+        </div>
+
+        <div class="aside__block">
+          <p class="aside__block__title">About ActiveBox</p>
+          <p class="aside__block__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper
+            nulla non metus auctor fringilla.</p>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p class="copyright__text">Copyright © 2015 ActiveBox. All Rights Reserved
+          Made with <span class="copyright__text_white">by Kamal Chaneman</span></p>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>

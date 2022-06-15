@@ -1,0 +1,125 @@
+.works {
+    margin-top: 133px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 4px;
+}
+
+.gallery__item {
+    position: relative;
+    flex-basis: 24.8%;
+    height: min(24vw, 340px);
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.works__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-pink);
+    opacity: 0;
+    transition: opacity 1s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.gallery__item-title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--color-white);
+}
+
+.gallery__item-description {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--color-white);
+    padding-top: 10px;
+}
+
+.works__content:hover {
+    opacity: 0.8;
+}
+
+.works__content:active {
+    background-color: #b90c0c;
+    opacity: 0.8;
+}
+
+@media (max-width: 1024px) {
+    .works {
+        margin-top: 73px;
+    }
+
+    .gallery__item {
+        height: min(24vw, 256px);
+    }
+
+    .works__content {
+        row-gap: 10px;
+    }
+
+    .gallery__item-title {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .gallery__item-description {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery__item {
+        height: min(24vw, 180px);
+    }
+
+    .gallery__item-title {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .gallery__item-description {
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .works {
+        margin-top: 35px;
+    }
+
+    .gallery__item {
+        height: 48vw;
+        flex-basis: 49.5%;
+    }
+
+    .gallery__item-title {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .gallery__item-description {
+      font-size: 14px;
+      line-height: 16px;
+    }
+}

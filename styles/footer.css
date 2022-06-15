@@ -1,0 +1,124 @@
+.footer {
+    max-width: 100%;
+    background-color: var(--color-blue);
+    margin-top: 114px;
+}
+.aside {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aside__block {
+    margin-top: 71px;
+    width: 370px;
+    height: 180px;
+}
+.aside__block__title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-white);
+    margin-bottom: 29px;
+}
+.aside__block__text {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: var(--color-white);
+    text-align: center;
+}
+.copyright {
+    background-color: #2c3154;
+    text-align: center;
+}
+.copyright__text {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: var(--color-gray-footer);
+    padding: 24px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.copyright__text_white {
+    color: var(--color-white);
+}
+
+.aside__block__icons {
+    display: flex;
+    justify-content: center;
+    column-gap: 27px;
+}
+.aside__icon {
+    width: 39px;
+    height: 39px;
+    fill: transparent;
+    stroke: #c6cbcd;
+}
+
+.aside__icon:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+@media (max-width: 1024px) {
+    .footer {
+        margin-top: 75px;
+    }
+    .aside__block {
+        margin-top: 71px;
+        width: 315px;
+        height: 150px;
+    }
+    .aside__block__title {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 15px;
+    }
+    .aside__block__text {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 10px;
+    }
+    .copyright__text {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 14px;
+        max-width: 340px;
+    }
+    .aside__block__icons {
+        column-gap: 23px;
+    }
+    .aside__icon {
+        width: 33px;
+        height: 33px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer {
+        margin-top: 43px;
+    }
+    .aside {
+        flex-direction: column;
+    }
+    .aside__block {
+        width: 300px;
+        height: 100%;
+        margin-top: 30px;
+    }
+    .aside__block__icons {
+        column-gap: 15px;
+    }
+}
